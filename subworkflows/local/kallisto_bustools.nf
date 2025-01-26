@@ -15,6 +15,7 @@ workflow KALLISTO_BUSTOOLS {
     txp2gene
     t1c
     t2c
+    whitelist
     protocol
     kb_workflow
     ch_fastq
@@ -46,6 +47,7 @@ workflow KALLISTO_BUSTOOLS {
         txp2gene,
         t1c,
         t2c,
+        whitelist,
         protocol,
         kb_workflow
     )

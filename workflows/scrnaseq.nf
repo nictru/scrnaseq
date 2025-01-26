@@ -124,6 +124,7 @@ workflow SCRNASEQ {
             ch_txp2gene,
             kb_t1c,
             kb_t2c,
+            ch_barcode_whitelist,
             protocol_config['protocol'],
             params.kb_workflow,
             ch_fastq
